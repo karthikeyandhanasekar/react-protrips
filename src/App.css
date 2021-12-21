@@ -1,6 +1,38 @@
-*
-{
-  margin: 0;
-  padding: 0;
+* {
+  margin    : 0;
+  padding   : 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #222F3E;
+}
+
+aside {
+  display    : flex;
+  align-items: center;
+  height     : 100vh;
+  width      : 10%;
+  float      : left;
+}
+
+aside>div {
+  display       : flex;
+  flex-direction: column;
+}
+
+.links {
+  margin-bottom: 25%;
+  width        : 40%;
+}
+
+.links img {
+  width: 100%;
+}
+
+section {
+  border: solid red;
+  width : 90%;
+  float : right;
+  height: 100vh;
 }
